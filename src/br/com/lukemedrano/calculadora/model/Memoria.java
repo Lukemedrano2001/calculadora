@@ -6,7 +6,7 @@ import java.util.List;
 public class Memoria {
     private static final Memoria instancia = new Memoria();
     private final List<MemoriaObserver> observadores = new ArrayList<MemoriaObserver>();
-	private TipoComando ultimaOperacao = null;
+    private TipoComando ultimaOperacao = null;
     private boolean substituir = false;
     private String textoAtual = "";
     private String textoBuffer = "";
@@ -98,7 +98,7 @@ public class Memoria {
     }
 
     private void notificarObservadores() {
-        this.observadores.forEach(observer -> observer.valorAlterado(this.getTextoAtual()));
+        this.getObservadores().forEach(observer -> observer.valorAlterado(this.getTextoAtual()));
     }
 
     private String obterResultadoOperacao() {
