@@ -4,7 +4,7 @@ Este é um projeto simples de uma calculadora em Java.
 
 ### Paradigmas utilizados: Orientado a Objeto, Funcional.
 
-### Design Patterns utilizados: Observer, Command, Singleton, Strategy, Open/Closed Principle (OCP), Dependency Inversion Principle (DIP).
+### Design Patterns utilizados: Observer, Command, Singleton, Strategy, Open/Closed Principle (OCP)
 
 ### Funcionalidades: 
 
