@@ -71,10 +71,6 @@ public class OperacoesMatematicas {
         return Math.cbrt(numeroAtual);
     }
 
-    private static double porcentagem(double numeroAtual) {
-        return Math.abs(numeroAtual);
-    }
-
     private static double log10(double numeroAtual) {
         return Math.log10(numeroAtual);
     }
