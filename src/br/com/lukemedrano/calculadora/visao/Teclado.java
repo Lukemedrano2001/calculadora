@@ -17,48 +17,48 @@ public class Teclado extends JPanel implements ActionListener {
 	
 	public Teclado() {
 		setLayout(new GridLayout(5, 5));
-		
+			
 		// Linha 1
 		this.adicionarBotao("C", CINZA_ESCURO);
-        this.adicionarBotao("\u00B2\u221A", CINZA_ESCURO);
-        this.adicionarBotao("\u00B3\u221A", CINZA_ESCURO);
-        this.adicionarBotao("%", CINZA_ESCURO);
-        this.adicionarBotao("/", CINZA_ESCURO);
-        
-        // Linha 2
-        this.adicionarBotao("log 10", CINZA_CLARO);
-        this.adicionarBotao("7", CINZA_CLARO);
-        this.adicionarBotao("8", CINZA_CLARO);
-        this.adicionarBotao("9", CINZA_CLARO);
-        this.adicionarBotao("*", CINZA_ESCURO);
-        
-        // Linha 3
-        this.adicionarBotao("x^y", CINZA_CLARO);
-        this.adicionarBotao("4", CINZA_CLARO);
-        this.adicionarBotao("5", CINZA_CLARO);
-        this.adicionarBotao("6", CINZA_CLARO);
-        this.adicionarBotao("-", CINZA_ESCURO);
-        
-        // Linha 4
-        this.adicionarBotao("n!", CINZA_CLARO);
-        this.adicionarBotao("1", CINZA_CLARO);
-        this.adicionarBotao("2", CINZA_CLARO);
-        this.adicionarBotao("3", CINZA_CLARO);
-        this.adicionarBotao("+", CINZA_ESCURO);
-        
-        // Linha 5
-        this.adicionarBotao("x\u00B2", CINZA_CLARO);
-        this.adicionarBotao("±", CINZA_CLARO);
-        this.adicionarBotao("0", CINZA_CLARO);
-        this.adicionarBotao(",", CINZA_CLARO);
-        this.adicionarBotao("=", AZUL);
+	        this.adicionarBotao("\u00B2\u221A", CINZA_ESCURO);
+	        this.adicionarBotao("\u00B3\u221A", CINZA_ESCURO);
+	        this.adicionarBotao("%", CINZA_ESCURO);
+	        this.adicionarBotao("/", CINZA_ESCURO);
+	        
+	        // Linha 2
+	        this.adicionarBotao("log 10", CINZA_CLARO);
+	        this.adicionarBotao("7", CINZA_CLARO);
+	        this.adicionarBotao("8", CINZA_CLARO);
+	        this.adicionarBotao("9", CINZA_CLARO);
+	        this.adicionarBotao("*", CINZA_ESCURO);
+	        
+	        // Linha 3
+	        this.adicionarBotao("x^y", CINZA_CLARO);
+	        this.adicionarBotao("4", CINZA_CLARO);
+	        this.adicionarBotao("5", CINZA_CLARO);
+	        this.adicionarBotao("6", CINZA_CLARO);
+	        this.adicionarBotao("-", CINZA_ESCURO);
+	        
+	        // Linha 4
+	        this.adicionarBotao("n!", CINZA_CLARO);
+	        this.adicionarBotao("1", CINZA_CLARO);
+	        this.adicionarBotao("2", CINZA_CLARO);
+	        this.adicionarBotao("3", CINZA_CLARO);
+	        this.adicionarBotao("+", CINZA_ESCURO);
+	        
+	        // Linha 5
+	        this.adicionarBotao("x\u00B2", CINZA_CLARO);
+	        this.adicionarBotao("±", CINZA_CLARO);
+	        this.adicionarBotao("0", CINZA_CLARO);
+	        this.adicionarBotao(",", CINZA_CLARO);
+	        this.adicionarBotao("=", AZUL);
 	}
-
-	 private void adicionarBotao(String texto, Color cor) {
-	    Botao botao = new Botao(texto, cor);
-	    botao.addActionListener(this);
+	
+	private void adicionarBotao(String texto, Color cor) {
+	    	Botao botao = new Botao(texto, cor);
+	    	botao.addActionListener(this);
 	    
-	    add(botao);
+	    	add(botao);
 	}
 	 
 	@Override
