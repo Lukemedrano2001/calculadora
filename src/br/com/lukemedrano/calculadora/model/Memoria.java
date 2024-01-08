@@ -68,7 +68,7 @@ public class Memoria {
 	        }
 	
 	        if (tipoComando == TipoComando.ZERAR) {
-				CalculadoraUtilitarios.getInstancia().resetarValores(instancia);
+		    CalculadoraUtilitarios.getInstancia().resetarValores(instancia);
 	        } else if (tipoComando == TipoComando.INVERTER_SINAL) {
 	            CalculadoraUtilitarios.getInstancia().inverterSinal(instancia);
 	        } else if (tipoComando == TipoComando.NUMERO) {
