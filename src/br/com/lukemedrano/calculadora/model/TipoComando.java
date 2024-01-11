@@ -1,7 +1,7 @@
 package br.com.lukemedrano.calculadora.model;
 
 public enum TipoComando {
-	// Interface
+    // Interface
     ZERAR, INVERTER_SINAL, IGUAL, VIRGULA, NUMERO, 
     
     // Operações
