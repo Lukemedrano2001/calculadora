@@ -6,6 +6,12 @@ Este é um projeto simples de uma calculadora em Java.
 
 ### Design Patterns utilizados: Observer, Singleton, Strategy, Open/Closed Principle (OCP)
 
+#### Classes e seus padrões de projeto respectivos que foram utilizados nesse projeto de calculadora em Java:
+- Observer: MemoriaObserver
+- Singleton: Memoria, ComandosMapper, OperacoesMatematicas, CalculadoraUtilitarios
+- Strategy (Adaptação): ComandosMapper, OperacoesMatematicas
+- Open/Closed Principle (OCP): ComandosMapper, OperacoesMatematicas
+
 ### Funcionalidades: 
 
 - **Operações Matemáticas**: Soma, Subtração, Multiplicação, Divisão, Raiz quadrada, Raiz cúbica, Logaritmo na base 10, Número elevado ao quadrado, Potenciação, Módulo, Fatorial.
