@@ -8,6 +8,8 @@ public class ComandosMapper {
 	private static final Map<String, TipoComando> mapeamentoComandosGerais = new HashMap<>();
     	private static final Map<String, TipoComando> mapeamentoOperacoes = new HashMap<>();
 
+	private ComandosMapper() {}
+	
     	public static ComandosMapper getInstancia() {
 		return instancia;
 	}
