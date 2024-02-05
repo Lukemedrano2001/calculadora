@@ -9,6 +9,8 @@ public class OperacoesMatematicas {
     private static final Map<TipoComando, UnaryOperator<Double>> operacoesUnarias = new HashMap<>();
     private static final Map<TipoComando, BinaryOperator<Double>> operacoesBinarias = new HashMap<>();
 
+    private OperacoesMatematicas() {}
+    
     static {
     	operacoesUnarias.put(TipoComando.RAIZ_QUADRADA, OperacoesMatematicas::quadradoRaiz);
         operacoesUnarias.put(TipoComando.RAIZ_CUBICA, OperacoesMatematicas::cuboRaiz);
